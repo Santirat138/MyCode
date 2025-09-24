@@ -14,10 +14,11 @@ class Index{
         }
 };
 Index input[CAPACITY];
+Index *ptrArray=input;
 //------------------ functions
 void showInputData(){
     for(int i=0;i<CAPACITY;i++){
-        if(input[i].ptrArray!=NULL){
+        if((ptr+i)->ptrArray!=NULL){
             input[i].showData();
         }
         else{

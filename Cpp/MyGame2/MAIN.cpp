@@ -9,6 +9,8 @@ int main(){
     int ansArray[]={1, 2, 3};
     int ansSize=sizeof(ansArray)/sizeof(ansArray[0]);
 
+    Index **pptrArray=&ptrArray;
+
     input[1].ptrArray=ansArray;
     input[1].size=ansSize;
     showInputData();
